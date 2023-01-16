@@ -1,7 +1,6 @@
 .main {
   background-color: #242831;
   border: 1px solid black;
-  /* box-shadow: 5px 5px 0px 2px grey; */
 }
 .num{
   background-color: #242831;
@@ -13,14 +12,20 @@
   padding: 20px 0px;
   border-radius: 5px;
   cursor: pointer;
+  box-shadow: 1px 1px 3px 0px lightgrey;
 }
 .num:hover{
-  opacity: 0.9;
+  opacity: 0.7;
+}
+.btn:hover{
+  opacity: 0.7;
 }
 .symbol:hover{
-  opacity: 0.9;
+  opacity: 0.7;
 }
-
+.btn{
+  box-shadow: 1px 1px 3px 0px lightgrey;
+}
 .symbol{
   background-color: #D2001A;
   color: white;
@@ -31,5 +36,52 @@
   padding: 20px 0px;
   border-radius: 5px;
   cursor: pointer;
+  box-shadow: 1px 1px 2px 0px lightgrey;
+}
+
+@media screen and (min-width:300px) {
+  .main{
+    width: 90%
+  }
+}
+@media screen and (min-width:400px) {
+  .main{
+    width: 70%
+  }
+}
+@media screen and (min-width:550px) {
+  .main{
+    width: 50%
+  }
+}
+@media screen and (min-width:700px) {
+  .main{
+    width: 40%
+  }
+}
+@media screen and (min-width:850px) {
+  .main{
+    width: 40%
+  }
+} 
+@media screen and (min-width:1000px) {
+  .main{
+    width: 35%
+  }
+}
+@media screen and (min-width:1200px) {
+  .main{
+    width: 30%
+  }
+}
+@media screen and (min-width:1450px) {
+  .main{
+    width: 25%
+  }
+}
+@media screen and (min-width:1600px) {
+  .main{
+    width: 18%
+  }
 }
 
